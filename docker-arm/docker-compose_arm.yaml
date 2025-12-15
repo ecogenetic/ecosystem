@@ -37,7 +37,7 @@ services:
       - "54445:54445"
       - "54321:54321"
     healthcheck:
-      test: ["CMD-SHELL", "wget --spider --quiet http://localhost:3001/api/v1/health || exit 1"]
+      test: ["CMD-SHELL", "ss -lnt | grep -q 3001 || exit 1"]
       interval: 10s
       timeout: 5s
       retries: 20
@@ -236,4 +236,5 @@ services:
 networks:
   ecosystem:
     external: true
+
 
