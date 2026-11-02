@@ -20,3 +20,7 @@ Copy .env file from environment default and add keys.
 ## Run
 
 Run your app by start.bat or start.bat
+
+## License
+
+This project is licensed under the [Apache License, Version 2.0](LICENSE).

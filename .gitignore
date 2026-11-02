@@ -1,4 +1,43 @@
+# OS and editor junk
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Backup and temp folders
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+backup/
+backups/
+tmp/
+temp/
+
+# Build output
+build/
+dist/
+out/
+target/
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
 
 # Logs
 logs
